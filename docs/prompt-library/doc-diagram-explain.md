@@ -210,7 +210,7 @@ def process_input(data):
         return number * 2
 ```
 
-
+![diagram1](/img/diagram1.png)
 
 5. **Sequence Diagram Generation for Node.js API**
 
@@ -258,7 +258,7 @@ module.exports = router;
 ```
 
 
-
+![diagram1](/img/diagram2.png)
 
 
 
@@ -569,4 +569,4 @@ def transform(row):
     row['field2'] = row['field1'].upper()
     return row
 ```
-
+![diagram1](/img/diagram3.png)
