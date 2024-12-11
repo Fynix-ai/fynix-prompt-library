@@ -101,43 +101,38 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Product',
             items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
+              { label: 'Features', href: 'https://fynix.ai/#features' },
+              { label: 'Pricing', href: 'https://fynix.ai/#pricing' },
+              { label: 'Docs', to: '/docs/intro' }, // If docs exist
             ],
           },
           {
             title: 'Community',
             items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              },
+              { label: 'Discord', href: 'https://discord.gg/ZCmWCe8qUW' },
+              { label: 'LinkedIn', href: 'https://www.linkedin.com/company/fynixai/' },
+              { label: 'Facebook', href: 'https://www.facebook.com/profile.php?id=61569122695656' },
+              { label: 'Reddit', href: 'https://www.reddit.com/user/fynix_ai/' },
             ],
           },
           {
-            title: 'More',
+            title: 'Social',
             items: [
-              
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
+              { label: 'X (Twitter)', href: 'https://x.com/fynix_ai' },
+              { label: 'Instagram', href: 'https://www.instagram.com/fynix_ai/' },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        logo: {
+          alt: 'Fynix Logo',
+          src: 'img/fynix-logo-svg.svg',
+          href: 'https://fynix.ai', // Link the logo to the website
+          width: 100,
+          height: 'auto',
+        },
+        copyright: `Copyright © ${new Date().getFullYear()} Fynix AI. All rights reserved.`,
       },
       prism: {
         theme: prismThemes.github,
