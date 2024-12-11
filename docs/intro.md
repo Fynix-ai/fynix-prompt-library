@@ -10,13 +10,13 @@ Fynix AI Coding Assistant is your ultimate companion for efficient and intellige
 
 ---
 
-## 🚀 **What is the Fynix Prompt Library?**
+## **What is the Fynix Prompt Library?**
 
 The Fynix Prompt Library is a curated collection of prompts organized by **use cases** to help you tackle coding challenges faster and smarter. From generating new code to debugging and improving existing solutions, the library has prompts to fit a variety of scenarios.
 
 ---
 
-## 🔑 **Why Use the Prompt Library?**
+## **Why Use the Prompt Library?**
 
 - **Save Time**: Spend less time thinking about the "how" and focus on the task at hand.
 - **Practical Use Cases**: Prompts are organized based on real-world development needs.
@@ -24,7 +24,7 @@ The Fynix Prompt Library is a curated collection of prompts organized by **use c
 
 ---
 
-## 🧭 **How to Get Started**
+## **How to Get Started**
 
 1. **Explore Use Cases**:  
    Browse the prompts organized by common coding scenarios such as:
@@ -45,7 +45,7 @@ The Fynix Prompt Library is a curated collection of prompts organized by **use c
 
 ---
 
-## 💡 **Tips for Effective Use**
+## **Tips for Effective Use**
 
 - Combine prompts for complex tasks. For example:  
    Use a **debugging prompt** to fix errors, then follow up with a **refactoring prompt** to clean up the code.
@@ -54,5 +54,5 @@ The Fynix Prompt Library is a curated collection of prompts organized by **use c
 
 ---
 
-Start exploring the Fynix Prompt Library today and supercharge your coding workflow. 🚀  
-Happy Coding with Fynix! ✨  
+Start exploring the Fynix Prompt Library today and supercharge your coding workflow.  
+Happy Coding with Fynix!   

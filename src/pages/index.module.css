@@ -3,21 +3,65 @@
  * and scoped locally.
  */
 
-.heroBanner {
+ .heroBanner {
+  min-height: 100vh; /* Full-page background */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 4rem 0;
   text-align: center;
-  position: relative;
-  overflow: hidden;
+  background: #ffffff; /* White background */
+  color: #000000; /* Black text color */
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  /* No changes to h1 */
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
 }
 
 .buttons {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.linkButton {
+  background-color: #000000; /* Black button color */
+  color: #ffffff; /* White text color */
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.linkButton:hover {
+  background-color: #333333; /* Dark gray on hover */
+  color: #ffffff; /* Maintain white text color */
+  text-decoration: none; /* No underline on hover */
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
 }
