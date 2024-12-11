@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Fynix prompt library',
+  tagline: 'Comprehensive Prompts for Fynix Ai coding Assistant',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -79,7 +79,8 @@ const config = {
         title: 'Home',
         logo: {
           alt: 'Home Logo',
-          src: 'img/fynix-logo.png',
+          src: 'img/fynix-logo-svg.svg',
+          className: 'logo-theme', //added logo theme class
         },
         items: [
           {
