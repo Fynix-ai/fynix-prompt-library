@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Fynix prompt library',
   tagline: 'Comprehensive Prompts for Fynix Ai coding Assistant',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/fynix-logo-svg.ico',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -91,7 +91,7 @@ const config = {
           },
           
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/ankur-helak/fynix-prompt-library',
             label: 'GitHub',
             position: 'right',
           },
