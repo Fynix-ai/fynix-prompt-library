@@ -15,6 +15,11 @@
   --ifm-color-primary-lightest: #808080;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  /* New: Secondary Accent Color */
+  --ifm-color-accent: #7a5af5; /* Added a purple accent color */
+
+  /* Font Sizes */
   --font-size-heading-main: 32px;
   --font-size-heading-sub: 24px;
   --font-size-body: 18px;
@@ -26,7 +31,6 @@
 
   /* Font Family */
   --font-family-base: "Lato", sans-serif;
-
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -59,17 +63,23 @@ h2 {
   font-weight: 600;
 }
 
-/* Tertiary Heading (H3) */
+/* Updated: Consistent Heading Weights for H3 */
 h3 {
-  font-size: 20px; /* 20px for intermediate headings */
+  font-size: 20px; 
+  font-weight: 600; /* Increased for better balance */
   line-height: var(--line-height-heading);
-  font-weight: 500;
 }
 
 /* Body Text */
 p, li {
   font-size: var(--font-size-body);
   line-height: var(--line-height-body);
+}
+
+/* Updated: Add variation to list item color */
+ul li, ol li {
+  font-weight: 400;
+  color: var(--ifm-color-emphasis-700); /* Slightly dim for better visual differentiation */
 }
 
 /* Sidebar Menu Text */
@@ -79,15 +89,11 @@ p, li {
   font-weight: 400;
 }
 
-/* Unordered and Ordered Lists */
-ul, ol {
-  font-size: var(--font-size-body);
-  line-height: var(--line-height-body);
-  margin-left: 1.5rem; /* Adjust bullet/number spacing */
-}
-
-ul li, ol li {
-  margin-bottom: 8px; /* Add spacing between list items */
+/* Updated: Visual Distinction for Active Sidebar Links */
+.menu__link--active {
+  background-color: rgba(0, 0, 0, 0.05); /* Slight background color */
+  border-left: 4px solid var(--ifm-color-primary); /* Left border */
+  font-weight: 600; /* Highlighted with a bold weight */
 }
 
 /* Sidebar Links */
@@ -98,10 +104,20 @@ ul li, ol li {
 }
 
 .menu__link:hover {
-  background-color: var(--ifm-menu-color-background-hover);
-  font-weight: 500; /* Highlight active menu */
+  background-color: var(--ifm-color-accent); /* Added hover effect with accent color */
+  color: #ffffff; /* Ensure contrast */
+  transition: background-color 0.3s ease-in-out;
 }
 
+/* Updated: Sticky Sidebar for Long Content */
+.menu {
+  position: sticky;
+  top: 0; /* Stick to the top */
+  max-height: 100vh;
+  overflow-y: auto; /* Allow scrolling if content overflows */
+}
+
+/* Media Query for Mobile */
 @media screen and (max-width: 768px) {
   h1 {
     font-size: 28px; /* Scale down main heading */
