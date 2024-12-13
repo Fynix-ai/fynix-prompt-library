@@ -22,7 +22,7 @@ After demonstrating all three approaches, you want a final version that uses asy
 
 ## Prompt to Use in Fynix
 
-**Prompt:**
+**Prompt**
 
 "Fynix, I need to handle asynchronous code in Node.js for reading a file and fetching data from an external API. I have a local file named data.txt containing some text, and I want to fetch data from https://jsonplaceholder.typicode.com/posts/1. Please show me how to do this using three approaches: callbacks, Promises (with .then()), and async/await. For each approach, handle errors (e.g., file not found, network errors).
 

@@ -4,7 +4,7 @@ title: Managing Docker Images and Registries with Harbor
 sidebar_label: Docker Registries (Harbor)
 ---
 
-## Prompt Template:
+## Prompt Template
 "Fynix, I need to build and push a Docker image of my **[Language/Framework]** application to a Harbor registry. Specifically:
 
 1. Build a Docker image from my **[Application Type, e.g., Node.js/Java/Python]** application code.

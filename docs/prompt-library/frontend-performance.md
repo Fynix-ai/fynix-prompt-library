@@ -4,7 +4,7 @@ title: Optimizing Frontend Performance
 sidebar_label: Frontend Performance
 ---
 
-## Prompt Template:
+## Prompt Template
 "Fynix, I'm optimizing my React application and need help with performance improvements:
 
 1. I have a component **[ComponentName]** that's large and slows down the initial load time. It's only needed when a user performs a specific action. How can I implement code splitting to load it only when needed?

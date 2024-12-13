@@ -3,7 +3,7 @@ id: api-boilerplate
 title: Generating Boilerplate Code for New API Endpoints
 sidebar_label: API Boilerplate
 ---
-## **Prompt Template:**
+## **Prompt Template**
 
 "I need to create a new API endpoint using **[Framework]** in **[Language]**. The endpoint should handle a **[HTTP Method]** request at the path **[Endpoint Path]**, which **[describe the purpose of the endpoint]**. The endpoint should:
 
@@ -14,7 +14,7 @@ sidebar_label: API Boilerplate
 Please generate the complete code for this endpoint, including all necessary imports and the **[Framework]** application setup. Ensure that the code is ready to run and test as-is."
 
 
-## Prompt:
+## Prompt
 *I need to create a new API endpoint using FastAPI in Python. The endpoint should handle a GET request at the path `/users/{user_id}`, where `{user_id}` is a path parameter representing the user's ID. The endpoint should:
 
 * Retrieve user information from a mock database (a simple Python dictionary).

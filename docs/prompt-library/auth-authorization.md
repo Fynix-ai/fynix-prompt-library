@@ -3,7 +3,7 @@ id: auth-authorization
 title: Implementing Authentication and Authorization Mechanisms
 sidebar_label: Authentication and Authorization
 ---
-## Prompt Template:
+## Prompt Template
 
 "Fynix, I need to implement authentication and authorization in my [language/framework] application. Specifically:
 

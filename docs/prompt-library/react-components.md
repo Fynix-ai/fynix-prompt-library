@@ -3,7 +3,7 @@ id: react-components
 title: Building React Components from Design Specifications
 sidebar_label: React Components
 ---
-## Prompt Template:
+## Prompt Template
 "Generate unit tests for the React component **[ComponentName]** in **[FilePath]**. The tests should cover:
 
 * **[List of scenarios and behaviors to test]**

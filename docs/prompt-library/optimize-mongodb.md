@@ -4,7 +4,7 @@ title: Optimizing MongoDB Queries
 sidebar_label: MongoDB Queries
 ---
 
-## Prompt Template:
+## Prompt Template
 
 "Using **[Programming Language]** with the **[MongoDB Driver/Library]**, optimize a query on a **[Collection Name]** collection in a MongoDB database. The collection contains documents with the following schema:
 

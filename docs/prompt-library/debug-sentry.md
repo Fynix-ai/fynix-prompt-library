@@ -5,7 +5,7 @@ sidebar_label: Debugging with Sentry
 ---
 
 
-## Prompt Template:
+## Prompt Template
 
 "I'm encountering a **[Error Type, e.g., NullPointerException]** in [**Function or Method Name]** at **[File Name]** line **[Line Number]**: **[Brief Description of the Error, e.g., 'variableName' is null]**. How can I fix this error and ensure that **[Explanation of what needs to be validated or handled]**?"
 

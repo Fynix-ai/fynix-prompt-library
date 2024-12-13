@@ -3,7 +3,7 @@ id: concurrency-asyncio
 title: Dealing with Concurrency in Python (Asyncio)
 sidebar_label: Concurrency (Python Asyncio)
 ---
-## Prompt Template:
+## Prompt Template
 "Fynix, I need to handle multiple I/O-bound tasks concurrently in my **[Programming Language]** application using **[Concurrency Library/Framework]**. Specifically:
 
 1. **[Task 1 Description]**

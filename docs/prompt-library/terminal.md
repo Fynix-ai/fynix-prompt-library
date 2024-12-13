@@ -7,7 +7,7 @@ sidebar_label: Fynix Terminal
 
 **Description:** Change the current working directory to a specified folder.
 
-****Natural Language Prompt:****
+****Natural Language Prompt****
 
 Take me to the 'Documents/Projects' folder.
 
@@ -24,7 +24,7 @@ cd ~/Documents/Projects
 
 **Description:** Display all files and folders within a specified directory.
 
-****Natural Language Prompt:****
+****Natural Language Prompt****
 
 Show me everything inside the 'Downloads' folder.
 
@@ -41,7 +41,7 @@ ls ~/Downloads
 
 Description: Display the contents of a text file in the terminal.
 
-**Natural Language Prompt:**
+**Natural Language Prompt**
 
 What's inside the 'notes.txt' file?
 
@@ -59,7 +59,7 @@ cat notes.txt
 
 Description: Create a duplicate of a file in a specified location.
 
-**Natural Language Prompt:**
+**Natural Language Prompt**
 
 Make a copy of 'report.docx' in the 'Backup' folder.
 
@@ -76,7 +76,7 @@ cp report.docx ~/Backup/
 
 Description: Relocate a file to a different directory.
 
-**Natural Language Prompt:**
+**Natural Language Prompt**
 
 Move 'photo.jpg' to the 'Pictures/Vacation' folder.
 
@@ -94,7 +94,7 @@ mv photo.jpg ~/Pictures/Vacation/
 
 Description: Remove a specified file from the system.
 
-**Natural Language Prompt:**
+**Natural Language Prompt**
 
 Delete the 'old_data.csv' file.
 
@@ -112,7 +112,7 @@ rm old_data.csv
 
 Description: Make a new folder in a specified location.
 
-**Natural Language Prompt:**
+**Natural Language Prompt**
 
 Create a new folder named 'Archive' in the 'Documents' directory.
 
@@ -130,7 +130,7 @@ mkdir ~/Documents/Archive
 
 Description: Display the amount of disk space used by files and directories.
 
-**Natural Language Prompt:**
+**Natural Language Prompt**
 
 How much space is being used in the 'Music' folder?
 
@@ -148,7 +148,7 @@ du -sh ~/Music
 
 Description: Search for a file with a specific name within a directory.
 
-**Natural Language Prompt:**
+**Natural Language Prompt**
 
 Locate a file named 'resume.pdf' in the 'Documents' folder.
 
@@ -165,7 +165,7 @@ find ~/Documents -name resume.pdf
 
 Description: Display current network connections and listening ports.
 
-**Natural Language Prompt:**
+**Natural Language Prompt**
 
 Show me all active network connections.
 
@@ -181,7 +181,7 @@ netstat -tuln
 
 11. **Finding and Deleting Large Files**
 
-**Natural Language Prompt:**
+**Natural Language Prompt**
 
 Find and remove all files larger than 100MB in the 'Downloads' folder.
 
@@ -202,7 +202,7 @@ Explanation: This command searches for files (-type f) in the ~/Downloads direct
 
 12. **Archiving and Compressing a Directory**
 
-**Natural Language Prompt:**
+**Natural Language Prompt**
 
 Create a compressed archive of the 'Projects' folder and save it as 'projects_backup.tar.gz'.
 
@@ -222,7 +222,7 @@ Explanation: This command creates a compressed (-czvf) archive named projects_ba
 
 13. **Recursively Changing File Permissions**
 
-**Natural Language Prompt:**
+**Natural Language Prompt**
 
 Set all files in the 'Scripts' directory to be executable by the owner.
 
@@ -242,7 +242,7 @@ Explanation: This command finds all files (-type f) in the ~/Scripts directory a
 
 14. **Monitoring Real-Time System Resource Usage**
 
-**Natural Language Prompt:**
+**Natural Language Prompt**
 
 Show me real-time CPU and memory usage for all processes.
 
@@ -260,7 +260,7 @@ Explanation: The top command displays real-time information about system reso
 
 15. **Synchronizing Directories Between Two Servers**
 
-**Natural Language Prompt:**
+**Natural Language Prompt**
 
 Sync the 'Website' folder from the local machine to the remote server 'example.com' in the '/var/www' directory.
 
@@ -279,7 +279,7 @@ Explanation: This command synchronizes the local ~/Website/ directory with the /
 
 16. **Searching for a Specific Text Pattern in Files**
 
-**Natural Language Prompt:**
+**Natural Language Prompt**
 
 Find all occurrences of the word 'ERROR' in log files within the '/var/logs' directory.
 
@@ -298,7 +298,7 @@ Explanation: This command recursively (-r) searches for the string 'ERROR' in al
 
 17. **Displaying Disk Usage of All Subdirectories**
 
-**Natural Language Prompt:**
+**Natural Language Prompt**
 
 Show the disk usage of each subdirectory in the 'Documents' folder.
 
@@ -317,7 +317,7 @@ Explanation: This command displays the disk usage (du) of each subdirectory with
 
 18. **Scheduling a System Shutdown**
 
-**Natural Language Prompt:**
+**Natural Language Prompt**
 
 Schedule the system to shut down at 10 PM today.
 
@@ -336,7 +336,7 @@ Explanation: This command schedules a system shutdown (shutdown -h) at 10:00 PM 
 
 19. **Counting the Number of Lines in Multiple Files**
 
-**Natural Language Prompt:**
+**Natural Language Prompt**
 
 Count the total number of lines across all '.txt' files in the 'Notes' directory.
 
@@ -355,7 +355,7 @@ Explanation: This command concatenates all .txt files in the ~/Notes directory u
 
 20. **Monitoring Changes to a File in Real-Time**
 
-**Natural Language Prompt:**
+**Natural Language Prompt**
 
 Show me real-time updates to the 'access.log' file.
 

@@ -4,7 +4,7 @@ title: Analyzing Logs and Metrics with Coralogix, Prometheus, and Grafana
 sidebar_label: Logs and Metrics
 ---
 
-## Prompt Template:
+## Prompt Template
 "Fynix, I need to set up logging and metrics for my **[language/framework]** application using **[tools]**. Specifically:
 
 1. Logging with **[Tool]**:

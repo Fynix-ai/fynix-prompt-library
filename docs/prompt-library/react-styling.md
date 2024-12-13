@@ -4,7 +4,7 @@ title: Styling Components to Match Pixel-Perfect Designs
 sidebar_label: React Styling
 ---
 
-## Prompt Template:
+## Prompt Template
 "Generate a React component named **[ComponentName]** based on the following design specifications:
 
 

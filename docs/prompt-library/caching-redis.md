@@ -3,7 +3,7 @@ id: caching-redis
 title: Implementing Caching Mechanisms with Redis
 sidebar_label: Caching with Redis
 ---
-## Prompt Template:
+## Prompt Template
 
 "I need to implement caching in my **[Language/Framework]** application using Redis to improve performance. The application [describe its functionality, e.g., fetches data from an external API]. I want to:
 

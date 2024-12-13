@@ -3,7 +3,7 @@ id: third-party-apis
 title: Integrating Third-Party APIs
 sidebar_label: Third-Party APIs
 ---
-## Prompt Template:
+## Prompt Template
 "Fynix, I need to integrate **[Third-Party API]** into my **[language/framework]** application to **[describe functionality]**. I want to:
 
 1. **[First requirement]**

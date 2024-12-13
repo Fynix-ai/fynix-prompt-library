@@ -4,7 +4,7 @@ title: Writing Complex SQL Queries
 sidebar_label: Complex SQL Queries
 ---
 
-## Prompt Template:
+## Prompt Template
 "I need to write a complex SQL query for a [Database System] database. The database has the following tables:
 
 * **[Table 1 Name]**:

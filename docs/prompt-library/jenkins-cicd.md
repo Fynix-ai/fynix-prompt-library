@@ -4,7 +4,7 @@ title: Setting Up and Configuring Jenkins Pipelines for CI/CD
 sidebar_label: Jenkins Pipelines
 ---
 
-## Prompt Template:
+## Prompt Template
 "Fynix, I need to set up a Jenkins pipeline for my **[language/framework]** application to automate the build, test, and deployment process. The application is hosted on **[repository URL]**. I want the pipeline to:
 
 1. **[Step 1]**

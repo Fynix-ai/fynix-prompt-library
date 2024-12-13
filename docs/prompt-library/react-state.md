@@ -4,7 +4,7 @@ title: Debugging React State Management Issues
 sidebar_label: React State Issues
 ---
 
-## Prompt Template:
+## Prompt Template
 "Fynix, I'm experiencing an issue with my React component **[ComponentName]** in **[FilePath]**. **[Describe the problem and include relevant code snippets.]** Can you help me identify and fix the issue?"
 
 

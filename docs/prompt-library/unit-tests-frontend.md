@@ -3,7 +3,7 @@ id: unit-tests-frontend
 title: Automating Unit Test Generation for Frontend Code
 sidebar_label: Frontend Unit Tests
 ---
-## Prompt Template:
+## Prompt Template
 "Generate unit tests for the functions **[FUNCTION_NAMES]** in **[MODULE_NAME]**. The tests should cover various scenarios, including edge cases, and use Python's unittest framework (or preferred testing framework). Provide assertions to verify that the functions return the expected results for different inputs. Ensure that the generated tests can be run directly and include any necessary imports."
 
 

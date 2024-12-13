@@ -4,7 +4,7 @@ title: Resolving Code Quality Issues from SonarQube
 sidebar_label: SonarQube Quality Issues
 ---
 
-## Prompt Template:
+## Prompt Template
 "Please help me resolve the following issues reported by SonarQube:
 
 1. **[Issue Type, e.g., Bug/Security Vulnerability/Code Smell]:** **[Issue Summary, e.g., Functions should not have too many lines]**
