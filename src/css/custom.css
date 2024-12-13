@@ -15,6 +15,18 @@
   --ifm-color-primary-lightest: #808080;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --font-size-heading-main: 32px;
+  --font-size-heading-sub: 24px;
+  --font-size-body: 18px;
+  --font-size-sidebar: 16px;
+
+  /* Line Heights */
+  --line-height-heading: 1.2;
+  --line-height-body: 1.5;
+
+  /* Font Family */
+  --font-family-base: "Lato", sans-serif;
+
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -29,3 +41,77 @@
   --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.1);
 }
 
+* {
+  font-family: var(--font-family-base) !important;
+}
+
+/* Main Heading (H1) */
+h1, .hero__title {
+  font-size: var(--font-size-heading-main);
+  line-height: var(--line-height-heading);
+  font-weight: 700; /* Optional: Adjust weight for prominence */
+}
+
+/* Secondary Heading (H2) */
+h2 {
+  font-size: var(--font-size-heading-sub);
+  line-height: var(--line-height-heading);
+  font-weight: 600;
+}
+
+/* Tertiary Heading (H3) */
+h3 {
+  font-size: 20px; /* 20px for intermediate headings */
+  line-height: var(--line-height-heading);
+  font-weight: 500;
+}
+
+/* Body Text */
+p, li {
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-body);
+}
+
+/* Sidebar Menu Text */
+.menu__link {
+  font-size: var(--font-size-sidebar);
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+/* Unordered and Ordered Lists */
+ul, ol {
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-body);
+  margin-left: 1.5rem; /* Adjust bullet/number spacing */
+}
+
+ul li, ol li {
+  margin-bottom: 8px; /* Add spacing between list items */
+}
+
+/* Sidebar Links */
+.menu__link {
+  font-size: var(--font-size-sidebar);
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+.menu__link:hover {
+  background-color: var(--ifm-menu-color-background-hover);
+  font-weight: 500; /* Highlight active menu */
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 28px; /* Scale down main heading */
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  p, li {
+    font-size: 16px; /* Scale body text */
+  }
+}
