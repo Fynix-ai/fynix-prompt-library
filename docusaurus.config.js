@@ -91,7 +91,7 @@ const config = {
           },
 
           {
-            href: 'https://github.com/ankur-helak/fynix-prompt-library',
+            href: 'https://github.com/Fynix-ai/fynix-prompt-library.git',
             label: 'GitHub',
             position: 'right',
           },
